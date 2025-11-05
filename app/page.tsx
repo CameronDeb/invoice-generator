@@ -68,10 +68,40 @@ export default function Home() {
               Whether you&apos;re a freelance designer, consultant, contractor, or running a small business, 
               you need to send invoices to get paid. Our invoice maker simplifies the entire process.
             </p>
+
+            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              Key Features of Our Invoice Template
+            </h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Professional invoice templates ready to use</li>
+              <li>Automatic tax and total calculations</li>
+              <li>Add multiple line items and services</li>
+              <li>Customize with your business details</li>
+              <li>Include payment terms and notes</li>
+              <li>Instant PDF download for sending to clients</li>
+            </ul>
+
+            <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              How to Create an Invoice
+            </h3>
+            <ol className="list-decimal pl-6 space-y-2">
+              <li>Enter your business information and logo</li>
+              <li>Add your client&apos;s details</li>
+              <li>List your products or services with prices</li>
+              <li>Add any taxes or discounts</li>
+              <li>Download your professional PDF invoice</li>
+              <li>Send it to your client and get paid faster</li>
+            </ol>
           </div>
         </div>
 
         <div className="text-center mt-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Ready to Create Your Invoice?
+          </h2>
+          <p className="text-xl text-gray-600 mb-8">
+            Join thousands of freelancers and businesses using our free invoice generator
+          </p>
           <Link 
             href="/invoice"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
@@ -84,6 +114,9 @@ export default function Home() {
       <footer className="bg-gray-900 text-gray-400 py-8 mt-20">
         <div className="container mx-auto px-4 text-center">
           <p>&copy; 2024 InvoiceQuick. Free invoice generator for professionals.</p>
+          <p className="mt-2 text-sm">
+            Keywords: invoice generator, free invoice template, create invoice online, invoice maker, professional invoice
+          </p>
         </div>
       </footer>
     </div>

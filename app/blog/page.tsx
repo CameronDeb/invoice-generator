@@ -74,3 +74,17 @@ export default function BlogPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Ready to Create Your Invoice?
           </h2>
+          <p className="text-xl text-gray-600 mb-6">
+            Use our free invoice generator - no signup required
+          </p>
+          <Link
+            href="/invoice"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition"
+          >
+            Create Free Invoice
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
